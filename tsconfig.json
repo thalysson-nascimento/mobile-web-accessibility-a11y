@@ -8,7 +8,8 @@
       "@enums/*": ["./src/app/shared/enums/*"],
       "@interfaces/*": ["./src/app/shared/interfaces/*"],
       "@models/*": ["./src/app/shared/models/*"],
-      "@services/*": ["./src/app/shared/services/*"]
+      "@services/*": ["./src/app/shared/services/*"],
+      "@types/*": ["./src/app/shared/types/*"]
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
