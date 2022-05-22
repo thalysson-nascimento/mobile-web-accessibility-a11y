@@ -5,6 +5,7 @@
     "baseUrl": "./",
     "paths": {
       "@directives/*": ["./src/app/shared/directives/*"],
+      "@directives-components/*": ["./src/app/shared/directives-components/*"],
       "@enums/*": ["./src/app/shared/enums/*"],
       "@interfaces/*": ["./src/app/shared/interfaces/*"],
       "@models/*": ["./src/app/shared/models/*"],
