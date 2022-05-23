@@ -25,7 +25,16 @@ export class FocusSwipeMobileDirective implements AfterViewInit {
   ) {}
 
   ngAfterViewInit(): void {
-    throw new Error('Method not implemented.');
+    this.focusInitializationElements();
+  }
+
+  focusInitializationElements() {
+    this.fisrtFocusAbleElement = this.getFocusAllEnabledElements()[0];
+    this.lastFocusAbleElement =
+      this.getFocusAllEnabledElements()[
+        this.getFocusAllEnabledElements().length - 1
+      ];
+    this.fisrtFocusAbleElement.focus();
   }
 
   getFocusAllEnabledElements() {
