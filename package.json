@@ -1,6 +1,25 @@
 {
-  "name": "mobile-web-accessibility-a11y",
+  "name": "mobile-web-accessibility-a11y-rc",
   "version": "1.0.0",
+  "description": "lib contendo diretivas de acessibilidade para projetos Angular",
+  "main": "src/main.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thalysssonNascimento/mobile-web-accessibility-a11y"
+  },
+  "keywords": [
+    "acessibility",
+    "a11y",
+    "mobile",
+    "angular",
+    "directives"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Thalysson N Andrade",
+    "email": "thalysson.andrade.dev@gmail.com",
+    "url": "https://github.com/thalysssonNascimento"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
