@@ -1,4 +1,4 @@
-<div class="main" appFocusTrapSwipeScreenMobile>
+<div class="main" appManagerFocusScreenMobile>
   <button appButton (click)="goBack()">voltar</button>
 
   <br />
@@ -6,20 +6,18 @@
 
   <button appButton (click)="goBack()">próximo</button>
 
-  <!-- <h1 class="space-element-top" tabindex="1">
-    segue o exemplo para a lib de acessibilidade
-  </h1> -->
+  <br /><br />
+
+  <button aria-label="enviar" appButton (click)="goBack()">enviar</button>
+
+  <br /><br /><br />
+  <app-list-item></app-list-item>
+
+  <br /><br /><br />
+  <a href="#" aria-label="enviar">enviar</a>
 
   <br /><br />
 
-  <button aria-label="próximo teste do botão" appButton (click)="goBack()">
-    próximo test
-  </button>
+  <span>olha aqui de novo</span>
+  <br /><br />
 </div>
-
-<!-- <br /><br /><br />
-<button aria-describedby="trash-desc">Move to trash</button>
-...
-<p id="trash-desc">
-  Items in the trash will be permanently removed after 30 days.
-</p> -->
